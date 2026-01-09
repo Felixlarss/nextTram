@@ -4,4 +4,5 @@ export type Departure = {
 	estimatedTime: string;
 	serviceJourney?: string;
 	line?: string;
+	platform: string;
 };
